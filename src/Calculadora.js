@@ -4,9 +4,6 @@ import { Link } from 'react-router-dom';
 
 export default function Calculadora() {
 
-    <p>oi</p>
-
-    /*
     const [num, setNun] = useState(0);
     const [prevnum, setPrevNun] = useState(0);
     const [inpoperador, setOperador] = useState();
@@ -96,6 +93,6 @@ export default function Calculadora() {
             </div>
         </container>
     );
-*/
+
 
 }
