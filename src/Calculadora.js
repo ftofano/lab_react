@@ -89,9 +89,10 @@ export default function Calculadora() {
                 <button className='orange' onClick={calcular} value='='>=</button>
                 </div>
                 </div>
-                <div className='voltar'><Link to='/'>Voltar</Link></div>
+                
             </div>
         </container>
+    <div className='voltar'><Link to='/'>Voltar</Link></div>
     );
 
 
