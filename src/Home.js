@@ -23,6 +23,9 @@ const Home = () => {
                     <li>
                         <Link to="/Calculadora">Calculadora</Link>
                     </li>
+                    <li>
+                        <Link to="/Memoria">Memoria</Link>
+                    </li>
                 </ul>
             </nav>
         

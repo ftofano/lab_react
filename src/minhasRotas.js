@@ -10,7 +10,9 @@ import Atv3 from "./Atv3";
 
 import Atv04 from "./Atv04";
 
-import Calculadora from "./Calculadora";    
+import Calculadora from "./Calculadora";  
+
+import Memoria from "./Memoria";  
 
 export default function MinhasRotas() {
     return (
@@ -23,6 +25,7 @@ export default function MinhasRotas() {
                 <Route path="/Atv3" element= {<Atv3 />} />
                 <Route path="/Atv04" element= {<Atv04 />} />
                 <Route path= "/Calculadora" element={<Calculadora />}/>
+                <Route path= "/Memoria" element={<Memoria />}/>
             </Routes>
         </BrowserRouter >
 
