@@ -1,0 +1,65 @@
+.calculadora {
+    width: 301px;
+    border: solid 5px #030303;
+    position: relative;
+    margin: 50px auto; 
+    border-radius: 10px;
+}
+
+.monitor {
+    display: flex;
+    width: 250px;
+    height: 70px;
+    border: solid 1px #030303;
+    margin-bottom: 10px; 
+    margin-top:  10px;;
+    border-radius: 10px;
+    text-align: left;
+    align-content: center;    
+    padding: 10px;
+}
+
+.teclado {
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 10px; 
+    
+}
+
+.fileira {
+    width: 70%;
+    display: flex;
+    margin-bottom: 5px; 
+}
+
+.coluna1 {
+    display: flex;
+    display: block;
+    flex-direction:column; 
+    margin-right: 5px; 
+}
+
+.bt {
+    flex: 1;
+    width: 30px;
+    border: solid 1px #000;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    margin: 5px; 
+    cursor: pointer; 
+}
+button {
+    border: none;
+    outline: none;
+    padding: 0; 
+    margin: 0; 
+    background: none; 
+    cursor: pointer;
+  }
+  
+  
+ .bt:hover {
+    background-color: #eee;
+   
+  }
