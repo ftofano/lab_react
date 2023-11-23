@@ -72,7 +72,7 @@ export default function Calculadora() {
                         <button className='preto' onClick={addNun} value={7}>7</button>
                         <button className='preto' onClick={addNun} value={8}>8</button>
                         <button className='preto' onClick={addNun} value={9}>9</button>
-                        <button className='orange' onClick={operador} value='*'>X</button>
+                        <button className='orange' onClick={operador} value='*'>x</button>
                     </div>
                     <div className='fileira'>
                         <button className='preto' onClick={addNun} value={4}>4</button>
