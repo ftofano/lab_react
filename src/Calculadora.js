@@ -91,8 +91,9 @@ export default function Calculadora() {
                 </div>
                 
             </div>
+        <div className='voltar'><Link to='/'>Voltar</Link></div>
         </container>
-    <div className='voltar'><Link to='/'>Voltar</Link></div>
+    
     );
 
 
