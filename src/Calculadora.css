@@ -12,7 +12,7 @@
 
 .monitor {
     display: flex;
-    width: 280px;
+    width: 240px;
     height: 70px;
     border: solid 1px #030303;
     background-color: black ;
@@ -56,17 +56,25 @@ button {
   }
   .cinza{
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
     background-color: rgb(172, 169, 169);
+    font-weight: bold;
+
   }
   .orange{
     font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
     background-color: #f5923e;
     color: white;
   }
   .preto{
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
     color: white;
     background-color: #222;
+    font-weight: bold;
+
   }
   
  .bt:hover {

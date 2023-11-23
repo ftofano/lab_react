@@ -63,7 +63,7 @@ export default function Calculadora() {
                 <div className='moni'><h1 className='monitor'>{num}</h1></div>
                 <div className='teclado'>
                     <div className='fileira'>
-                        <button className='cinza' onClick={aC}>AC</button>
+                        <button className='cinza' onClick={aC}>Ac</button>
                         <button className='cinza' onClick={mudaSinal}>+/-</button>
                         <button className='cinza' onClick={porcent}>%</button>
                         <button className='orange' onClick={operador} value='/'>/</button>
