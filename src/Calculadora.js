@@ -41,17 +41,16 @@ export default function Calculadora() {
     }
 
     function calcular() {
-        if (inpoperador === '/') {
-            setNun(7);
-            setNun(parseFloat((prevnum / parseFloat(num)).toFixed(2))); // Limita o número de casas decimais para 2
+        if (inpoperador === '/') {            
+            setNun((prevnum / parseFloat(num)).toFixed(2));
         } else if (inpoperador === '*') {
-            setNun(parseFloat((prevnum * parseFloat(num)).toFixed(2))); // Limita o número de casas decimais para 2
+            setNun((prevnum * parseFloat(num)).toFixed(2));
         } else if (inpoperador === '+') {
-            setNun(parseFloat((prevnum + parseFloat(num)).toFixed(2))); // Limita o número de casas decimais para 2
+            setNun((parseFloat(prevnum) + parseFloat(num)).toFixed(2));
         } else if (inpoperador === '-') {
-            setNun(parseFloat((prevnum - parseFloat(num)).toFixed(2))); // Limita o número de casas decimais para 2
+            setNun((prevnum - parseFloat(num)).toFixed(2));
         }
-
+    
         setOperador(null);
         setPrevNun(0);
     }
