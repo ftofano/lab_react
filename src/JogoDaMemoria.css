@@ -1,0 +1,30 @@
+.tabuleiro {
+  display: flex;
+  flex-wrap: wrap;
+  width: 58%;
+}
+
+.carta {
+  width: 130px;
+  height: 130px;
+  margin: 4px;
+  cursor: pointer;
+  background-color: #000;
+  overflow: hidden;
+  transition: transform 0.5s ease;
+}
+
+.carta img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: opacity 0.5s ease;
+}
+
+.carta.virada {
+  transform: rotateY(180deg);
+}
+
+.carta.virada img {
+  opacity: 1; /* Change opacity to 1 to display images when flipped */
+}

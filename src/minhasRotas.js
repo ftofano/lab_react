@@ -10,24 +10,36 @@ import Atv3 from "./Atv3";
 
 import Atv04 from "./Atv04";
 
-import Calculadora from "./Calculadora";  
+import Calculadora from "./Calculadora";
 
-import Memoria from "./Memoria";  
+import JogoDaMemoria from "./JogoDaMemoria";
 
 export default function MinhasRotas() {
+
     return (
-        
+
         <BrowserRouter>
+
             <Routes>
-                <Route path="/" element= {<Home />} />
-                <Route path="/Atv01" element= {<Atv01 />} />
-                <Route path="/Atv02" element= {<Atv02 />} />
-                <Route path="/Atv3" element= {<Atv3 />} />
-                <Route path="/Atv04" element= {<Atv04 />} />
-                <Route path= "/Calculadora" element={<Calculadora />}/>
-                <Route path= "/Memoria" element={<Memoria />}/>
+
+                <Route path="/" element={<Home />} />
+
+                <Route path="/Atv01" element={<Atv01 />} />
+
+                <Route path="/Atv02" element={<Atv02 />} />
+
+                <Route path="/Atv3" element={<Atv3 />} />
+
+                <Route path="/Atv04" element={<Atv04 />} />
+
+                <Route path="/Calculadora" element={<Calculadora />} />
+
+                <Route path="/JogoDaMemoria" element={<JogoDaMemoria />} />
+
             </Routes>
+
         </BrowserRouter >
 
     );
+
 }
